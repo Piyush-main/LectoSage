@@ -1,0 +1,113 @@
+PS D:\PROJECTS\LeectoSage> ls
+
+
+    Directory: D:\PROJECTS\LeectoSage
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21-06-2026     23:45                backend
+d-----        21-06-2026     23:46                docs
+d-----        21-06-2026     23:45                frontend
+-a----        21-06-2026     23:49             28 README.md
+
+
+PS D:\PROJECTS\LeectoSage> cd backend
+PS D:\PROJECTS\LeectoSage\backend> ls
+PS D:\PROJECTS\LeectoSage\backend> npm init -y
+Wrote to D:\PROJECTS\LeectoSage\backend\package.json:
+
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
+
+
+
+PS D:\PROJECTS\LeectoSage\backend> npm install express
+
+added 67 packages, and audited 68 packages in 5s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS D:\PROJECTS\LeectoSage\backend> New-Item app.js
+
+
+    Directory: D:\PROJECTS\LeectoSage\backend
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        22-06-2026     00:11              0 app.js
+
+
+PS D:\PROJECTS\LeectoSage\backend> ls
+
+
+    Directory: D:\PROJECTS\LeectoSage\backend
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        22-06-2026     00:04                node_modules
+d-----        22-06-2026     00:10                src
+-a----        22-06-2026     00:11              0 app.js
+-a----        22-06-2026     00:04          30004 package-lock.json
+-a----        22-06-2026     00:04            292 package.json
+-a----        22-06-2026     00:03              0 zTerminal logs.txt
+
+
+PS D:\PROJECTS\LeectoSage\backend> New-Item server.js
+
+
+    Directory: D:\PROJECTS\LeectoSage\backend
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        22-06-2026     00:12              0 server.js
+
+
+PS D:\PROJECTS\LeectoSage\backend> ls
+
+
+    Directory: D:\PROJECTS\LeectoSage\backend
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        22-06-2026     00:04                node_modules
+d-----        22-06-2026     00:11                src
+-a----        22-06-2026     00:04          30004 package-lock.json
+-a----        22-06-2026     00:04            292 package.json
+-a----        22-06-2026     00:12              0 server.js
+-a----        22-06-2026     00:03              0 zTerminal logs.txt
+
+
+PS D:\PROJECTS\LeectoSage\backend> cd ..
+PS D:\PROJECTS\LeectoSage> ls
+
+
+    Directory: D:\PROJECTS\LeectoSage
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        22-06-2026     00:12                backend
+d-----        21-06-2026     23:46                docs
+d-----        21-06-2026     23:45                frontend
+-a----        21-06-2026     23:49             28 README.md
+
+
+PS D:\PROJECTS\LeectoSage>
